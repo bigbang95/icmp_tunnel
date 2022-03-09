@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{F5110E8C-542F-429C-AFB9-9796C40F4EA4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcxproj", "{FEBA117A-A14E-4F47-B11D-8B61E3335101}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log", "log", "{D8FBB36B-0CA3-432D-A653-DEB9871EA46F}"
+	ProjectSection(SolutionItems) = preProject
+		log\wLog.cpp = log\wLog.cpp
+		log\wLog.h = log\wLog.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icmp", "icmp", "{ABD757C0-4883-4162-B805-8505061BFAB1}"
+	ProjectSection(SolutionItems) = preProject
+		icmp\icmpClientSocket.cpp = icmp\icmpClientSocket.cpp
+		icmp\icmpClientSocket.h = icmp\icmpClientSocket.h
+		icmp\icmpServerSocket.cpp = icmp\icmpServerSocket.cpp
+		icmp\icmpServerSocket.h = icmp\icmpServerSocket.h
+		icmp\icmpSocket.cpp = icmp\icmpSocket.cpp
+		icmp\icmpSocket.h = icmp\icmpSocket.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5110E8C-542F-429C-AFB9-9796C40F4EA4}.Debug|x64.ActiveCfg = Debug|x64
+		{F5110E8C-542F-429C-AFB9-9796C40F4EA4}.Debug|x64.Build.0 = Debug|x64
+		{F5110E8C-542F-429C-AFB9-9796C40F4EA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{F5110E8C-542F-429C-AFB9-9796C40F4EA4}.Debug|x86.Build.0 = Debug|Win32
+		{F5110E8C-542F-429C-AFB9-9796C40F4EA4}.Release|x64.ActiveCfg = Release|x64
+		{F5110E8C-542F-429C-AFB9-9796C40F4EA4}.Release|x64.Build.0 = Release|x64
+		{F5110E8C-542F-429C-AFB9-9796C40F4EA4}.Release|x86.ActiveCfg = Release|Win32
+		{F5110E8C-542F-429C-AFB9-9796C40F4EA4}.Release|x86.Build.0 = Release|Win32
+		{FEBA117A-A14E-4F47-B11D-8B61E3335101}.Debug|x64.ActiveCfg = Debug|x64
+		{FEBA117A-A14E-4F47-B11D-8B61E3335101}.Debug|x64.Build.0 = Debug|x64
+		{FEBA117A-A14E-4F47-B11D-8B61E3335101}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEBA117A-A14E-4F47-B11D-8B61E3335101}.Debug|x86.Build.0 = Debug|Win32
+		{FEBA117A-A14E-4F47-B11D-8B61E3335101}.Release|x64.ActiveCfg = Release|x64
+		{FEBA117A-A14E-4F47-B11D-8B61E3335101}.Release|x64.Build.0 = Release|x64
+		{FEBA117A-A14E-4F47-B11D-8B61E3335101}.Release|x86.ActiveCfg = Release|Win32
+		{FEBA117A-A14E-4F47-B11D-8B61E3335101}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92639BB9-B33F-4094-BF53-1F40CA58DDC4}
+	EndGlobalSection
+EndGlobal
